@@ -1,0 +1,63 @@
+body{
+/* background-color: deeppink; */
+padding: 0 50px;
+}
+
+.card_ponto_turistico {
+    
+    
+    display: flex;
+    margin-bottom: 24px;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+.card_imagem {
+font-size: 0;
+flex: 1; /* imagem ocupa 1 parte */
+   max-width: 300px; /* garantir que a imagem não ultrapasse 300px */
+}
+
+.card_detalhes {
+    flex: 1;
+}
+
+.card_imagem img{
+width: 100%;
+height: auto;
+object-fit: cover;
+}
+.categorias{
+    display: flex;
+    gap: 24px;
+}
+.categorias span {
+    background-color: black;
+    color: aliceblue;
+    padding: 4px;
+}
+
+
+#elemento-pai {
+padding: 12px;
+
+}
+
+/* HEADER */
+.categoria-btn{
+ padding: 12px 20px;
+ border-radius: 8px;
+ border: none;
+}
+
+#header {
+    
+    display: flex;
+    gap: 8px;
+    padding: 12px;
+}
+
+.active{
+    background-color: hotpink;
+    font-weight: bold;
+}
