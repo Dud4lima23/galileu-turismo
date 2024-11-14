@@ -1,6 +1,8 @@
 body{
 /* background-color: deeppink; */
 padding: 0 50px;
+background-color: #222;
+color: white;
 }
 
 .card_ponto_turistico {
@@ -58,6 +60,6 @@ padding: 12px;
 }
 
 .active{
-    background-color: hotpink;
+    background-color:mediumslateblue;
     font-weight: bold;
 }
